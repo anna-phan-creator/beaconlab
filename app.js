@@ -14,14 +14,14 @@ app.beaconRegions =
 		minor: 36810
 	},
 	{
-		id: 'page-shoulders',
+		id: 'page-hedvig',
 		//uuid:'dcec7cb2-f20c-4113-abdc-35515633c019',
 		uuid: 'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
 		major: 57356,
 		minor: 14220
 	},
 	{
-		id: 'page-face',
+		id: 'page-oscar',
 		//uuid:'dcec7cb2-f20c-4113-abdc-35515633c019',
 		uuid: 'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
 		major: 57272,
