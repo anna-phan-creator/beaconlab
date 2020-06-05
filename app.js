@@ -7,19 +7,13 @@ var app = {}
 app.beaconRegions =
 [
 	{
-<<<<<<< HEAD
-		id: 'page-hedvig',
-=======
 		id: 'page-jacob',
->>>>>>> cda37aaa98193d407cf8abe0fefa950efa5cd562
 		//uuid:'dcec7cb2-f20c-4113-abdc-35515633c019',
 		uuid: 'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
 		major: 3560,
 		minor: 36810
 	},
 	{
-<<<<<<< HEAD
-=======
 		id: 'page-hedvig',
 		//uuid:'dcec7cb2-f20c-4113-abdc-35515633c019',
 		uuid: 'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
@@ -27,7 +21,6 @@ app.beaconRegions =
 		minor: 14220
 	},
 	{
->>>>>>> cda37aaa98193d407cf8abe0fefa950efa5cd562
 		id: 'page-oscar',
 		//uuid:'dcec7cb2-f20c-4113-abdc-35515633c019',
 		uuid: 'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
