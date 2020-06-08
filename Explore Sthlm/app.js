@@ -24,8 +24,8 @@ app.beaconRegions =
 		id: 'page-oscar',
 		//uuid:'dcec7cb2-f20c-4113-abdc-35515633c019',
 		uuid: 'B9407F30-F5F8-466E-AFF9-25556B57FE6D',
-		major: 57272,
-		minor: 20467
+		major: 12102,
+		minor: 100
 	}
 ]
 
@@ -148,6 +148,7 @@ app.showPage = function(pageId)
 {
 	document.getElementById(pageId).style.display = 'block'
 }
+
 
 app.hidePage = function(pageId)
 {
