@@ -13,9 +13,6 @@
 
 	<script>
 	// Redirect console if running from Evothings Workbench.
-
-	document.getElementById("back-jacob").onclick = function() {app.hidePage("page-jacob")}
-
 	if (window.hyper) { console.log = hyper.log }
 	</script>
 </head>
@@ -24,7 +21,7 @@
 	<div class="my-page" id="page-default">
 		<div class="my-header">
 			<img class="my-header-image" src="photos/explore.jpg" />
-			<img class="my-icon-back" src="back.png" ontouchend="history.back()" />
+			<img class="my-icon-back" src="back.png" onclick="history.back()" />
 		</div>
 		<div class="my-content">
 			<h1>Explore Stockholm with iBeacons.</h1>
@@ -34,21 +31,25 @@
 
 	<div class="my-page" id="page-jacob">
 		<div class="my-header">
-			<img class="my-icon-back" src="back.png" ontouchend="history.back()" />
+			<img class="my-icon-back" src="back.png" id="back-jacob" />
 		</div>
 		<div class="my-content">
+			<br>
+			<br>
 			<h1>Sankt Jacobs kyrka </h1>
 			<p>Jacobs kyrka eller Sankt Jacobs kyrka är en kyrkobyggnad i Stockholm. Den är församlingskyrka i Stockholms domkyrkoförsamling i Stockholms stift. Kyrkan är belägen på Jakobs torg mitt emot Operan och med Kungsträdgården mot östra gaveln. Kyrkan började byggas på 1580-talet men på grund av diverse förseningar blev den inte färdigbyggd förrän cirka 60 år senare och invigdes först 1643 på första advent.</p>
+			<p><a href="https://sv.wikipedia.org/wiki/Jacobs_kyrka">Jacobs kyrka på Wikipedia</a></p>
+			<img class="my-header-image" src="photos/jacobskyrkan.jpg"/>
 		</div>
-		<p><a href="https://sv.wikipedia.org/wiki/Jacobs_kyrka">Jacobs kyrka på Wikipedia</a></p>
-		<img class="my-header-image" src="photos/jacobskyrkan.jpg"/>
 	</div>
 
 	<div class="my-page" id="page-hedvig">
 		<div class="my-header">
-			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+			<img class="my-icon-back" src="back.png" ontouchend="history.back()" />
 		</div>
 		<div class="my-content">
+			<br>
+			<br>
 			<h1>Hedvig Eleonora kyrka</h1>
 			<p>Hedvig Eleonora kyrka, Storgatan vid Östermalmstorg, Stockholm, tillhör Svenska kyrkan och är församlingskyrka för Hedvig Eleonora församling i Stockholms stift.
 			Kyrkan invigdes 21 augusti 1737 och har sitt namn efter Karl X Gustavs gemål drottning Hedvig Eleonora.</p>
@@ -59,10 +60,11 @@
 
 	<div class="my-page" id="page-oscar">
 		<div class="my-header">
-			<img class="my-header-image" src="photos/photo-default.jpg" />
-			<img class="my-icon-back" src="icon-back.png" ontouchend="history.back()" />
+			<img class="my-icon-back" src="back.png" ontouchend="history.back()" />
 		</div>
 		<div class="my-content">
+			<br>
+			<br>
 			<h1>Oskarskyrkan</h1>
 			<p>Oscarskyrkan är församlingskyrka i Oscars församling i Stockholms stift. Den ligger vid Narvavägen 6 på stadsdelen Östermalm i Stockholm. Arkitekt är Gustaf Hermansson. Kyrkan invigdes 1903.</p>
 			<p><a href="https://sv.wikipedia.org/wiki/Oscarskyrkan">Oscarskyrkan på Wikipedia</a></p>
